@@ -1,0 +1,2 @@
+# Chucky
+Kateryna projekt QA
