@@ -1,0 +1,106 @@
+/* Основний стиль для тіла сторінки */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Стиль для заголовку */
+#header {
+    font-size: 24px;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Стиль для параграфів з класом "info" */
+.info {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 15px 0;
+    color: #333;
+}
+/* Стиль для контейнера контактів */
+.contact-container {
+    background-color: #e6f7ff; /* Світло-блакитний фон */
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto; /* Центрування по горизонталі */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Стиль для тексту на сторінці контактів */
+.contact-container .info {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+}
+
+/* Стиль для параграфу з класом "warning" */
+.warning {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+/* Стиль для зображення на головній сторінці */
+#photo {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* Стиль для списку сторінок */
+.pages-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pages-list li {
+    margin: 10px 0;
+}
+
+/* Галерея */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Зображення у галереї */
+.gallery-image {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Ефект при наведенні на зображення */
+.gallery-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+/* Зображення у галереї */
+.gallery-image {
+    width: 300px; /* Ширина зображення */
+    height: 200px; /* Висота зображення */
+    object-fit: cover; /* Зберігає пропорції зображення */
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Ефект при наведенні на зображення */
+.gallery-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
